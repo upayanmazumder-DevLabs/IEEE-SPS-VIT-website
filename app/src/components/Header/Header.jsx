@@ -21,6 +21,7 @@ export default function Header() {
           <button
             key={label}
             className="flex-1 h-full border-r border-white last:border-r-0 flex items-center justify-center hover:bg-white/10 transition-colors"
+            style={{ fontSize: "28px" }}
           >
             {label}
           </button>
